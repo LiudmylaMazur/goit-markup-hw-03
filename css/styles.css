@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
 :root {
   --primary-brand: #4d5ae5;
   --dark: #2e2f42;
@@ -7,10 +14,8 @@
   --Accent: #e7e9fc;
   --Accent: #e7e9fc;
   --Light: #f4f4fd;
-
   --button-active: #404bbf;
   --white-text-color: #ffffff;
-
   --main-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
 }
