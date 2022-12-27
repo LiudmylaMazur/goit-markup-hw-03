@@ -53,11 +53,13 @@ body {
 }
 /* ---------header------------ */
 .header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .container {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
   margin: 0 auto;
   outline: 1px solid red;
 }
@@ -115,6 +117,12 @@ body {
 /* -----------------first section web ------------- */
 .section-effective {
   background: #2e2f42;
+  width: 1440px;
+  padding-top: 188px;
+  padding-bottom: 292px;
+  padding-left: 473px;
+  padding-right: 473px;
+  margin: 48px;
 }
 .title-one {
   font-weight: 700;
