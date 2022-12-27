@@ -49,10 +49,19 @@ body {
 
 .link {
   text-decoration: none;
+  display: inline-block;
 }
 /* ---------header------------ */
 .header {
 }
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
 .header-logo {
   font-family: "Raleway";
   font-weight: 800;
