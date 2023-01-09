@@ -117,13 +117,9 @@ body {
 /* -----------------first section web ------------- */
 .section-effective {
   background: #2e2f42;
-  width: 1440px;
   padding-top: 188px;
-  padding-bottom: 292px;
-  padding-left: 473px;
-  padding-right: 473px;
-  margin: 48px;
-}
+  padding-bottom: 188px;  
+ }
 .title-one {
   font-weight: 700;
   font-size: 56px;
@@ -131,6 +127,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 48px;
 }
 .button-btn {
   background: #4d5ae5;
@@ -143,10 +140,12 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-}
+  }
 
 /* -------------------second section web-------------- */
 .section-two {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .visually-hidden {
@@ -171,7 +170,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
+  }
 .paragraph {
   font-weight: 400;
   font-size: 16px;
@@ -182,6 +181,8 @@ body {
 
 /* ------------------three section web img ---------------- */
 .section-what {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .title-two {
   font-weight: 700;
@@ -190,6 +191,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .section-what-list {
 }
@@ -197,6 +199,8 @@ body {
 }
 .section-tim {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-tim-list {
 }
@@ -206,6 +210,8 @@ body {
 /* --------------------------footer---------------- */
 .footer {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   font-family: "Raleway";
