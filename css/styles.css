@@ -45,6 +45,7 @@ body {
 
 .list {
   list-style: none;
+  display: flex;
 }
 
 .link {
@@ -63,7 +64,12 @@ body {
   margin: 0 auto;
   outline: 1px solid red;
 }
-
+.header > .container {
+  display: flex;
+}
+.header-navigation {
+display: flex;
+}
 .header-logo {
   font-family: "Raleway";
   font-weight: 800;
@@ -73,6 +79,7 @@ body {
   color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  
 }
 .header-link:hover,
 .header-link:focus {
@@ -140,6 +147,7 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+ 
   }
 
 /* -------------------second section web-------------- */
@@ -170,6 +178,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+  margin-top: 32px;
   }
 .paragraph {
   font-weight: 400;
@@ -181,9 +191,9 @@ body {
 
 /* ------------------three section web img ---------------- */
 .section-what {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .title-two {
   font-weight: 700;
   font-size: 36px;
