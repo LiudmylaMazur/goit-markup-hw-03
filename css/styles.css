@@ -35,6 +35,11 @@ ol {
   margin: 0;
   padding-left: 0;
 }
+
+img{
+  display: block;
+}
+
 body {
   background-color: var(--white-text-color);
   color: var(--text);
@@ -69,6 +74,9 @@ body {
 }
 .header-navigation {
 display: flex;
+align-items: center;
+margin-right: auto;
+
 }
 .header-logo {
   font-family: "Raleway";
@@ -79,7 +87,14 @@ display: flex;
   color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
   
+  
+}
+.header-list{
+  gap: 40px;
+  
+
 }
 .header-link:hover,
 .header-link:focus {
@@ -87,6 +102,7 @@ display: flex;
 }
 .header-logo-studio {
   color: #2e2f42;
+ 
 }
 .header-link {
   font-weight: 700;
@@ -97,9 +113,11 @@ display: flex;
 }
 .current {
   color: var(--primary-brand);
+  margin 76px;
 }
 
 .header-item {
+ 
 }
 .header-link-mail {
   font-weight: 400;
@@ -107,6 +125,7 @@ display: flex;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-right: 40px;
 }
 .header-link-mail:hover,
 .header-link-mail:focus,
@@ -147,7 +166,9 @@ display: flex;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
- 
+  width: 169px;
+  height: 56px;
+  
   }
 
 /* -------------------second section web-------------- */
@@ -192,6 +213,7 @@ display: flex;
 /* ------------------three section web img ---------------- */
 .section-what {
   padding-bottom: 120px;
+  
 }
 
 .title-two {
@@ -204,8 +226,10 @@ display: flex;
   margin-bottom: 72px;
 }
 .section-what-list {
+  gap: 24px;
 }
 .section-what-item {
+  
 }
 .section-tim {
   background: #f4f4fd;
@@ -213,6 +237,7 @@ display: flex;
   padding-bottom: 120px;
 }
 .section-tim-list {
+  gap: 24px;
 }
 .section-tim-item {
 }
@@ -235,6 +260,7 @@ display: flex;
 }
 .footer-logo-studio {
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 .footer-paragraph {
   font-weight: 400;
@@ -246,14 +272,29 @@ display: flex;
 
 /* ---------------------------section-portfolio------ */
 .section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .section-portfolio-list {
+  gap: 24px;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  
 }
 .section-portfolio-item {
+  
+}
+.section-portfolio-item-list {
+  padding-bottom: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .section-portfolio-button:hover {
   background-color: #4d5ae5;
   color: #ffffff;
+  min-width: 69px;
+  height: 48px;
 }
 
 .section-portfolio-button {
@@ -265,4 +306,6 @@ display: flex;
   line-height: 1.5;
   letter-spacing: 0.04em;
   display: flex;
+  width: 116px;
+  height: 48px;
 }
