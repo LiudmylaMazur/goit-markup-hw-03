@@ -75,6 +75,8 @@ a {
 .list {
   list-style: none;
   display: flex;
+  align-items: center;
+  gap: 24px;
 
 }
 
@@ -206,6 +208,7 @@ margin-right: auto;
 .two {
   padding-top: 120px;
   padding-bottom: 120px;
+
 }
 
 .visually-hidden {
@@ -219,11 +222,14 @@ margin-right: auto;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+
 }
 .section-two-list {
+  
 }
 .section-two-item {
-}
+ 
+  }
 .title-three {
   font-weight: 600;
   font-size: 20px;
@@ -256,7 +262,7 @@ margin-right: auto;
   margin-bottom: 72px;
 }
 .section-what-list {
-  gap: 24px;
+  
 }
 .section-what-item {
   
@@ -267,8 +273,7 @@ margin-right: auto;
   padding-bottom: 120px;
 }
 .section-tim-list {
-  gap: 24px;
-}
+ }
 .section-tim-item {
   background-color: #FFFFFF;
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
