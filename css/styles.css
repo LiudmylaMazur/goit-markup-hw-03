@@ -17,7 +17,14 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white-text-color);
+  color: var(--text);
+  font-family: var(--main-font);
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 
 P,
@@ -30,27 +37,45 @@ h6 {
   margin: 0;
 }
 
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
 ul,
 ol {
+  list-style: none;
   margin: 0;
   padding-left: 0;
 }
 
-img{
-  display: block;
+a {
+  text-decoration: none;
+  //color: inherit;
 }
 
-body {
-  background-color: var(--white-text-color);
-  color: var(--text);
-  font-family: var(--main-font);
-  font-size: 16px;
-  letter-spacing: 0.02em;
+.container {
+  width: 1440px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin: 0 auto;
+  outline: 1px solid red;
 }
+ .secnion {
+ 
+ }
 
 .list {
   list-style: none;
   display: flex;
+  gap: 40px;
 }
 
 .link {
@@ -63,7 +88,7 @@ body {
   padding-bottom: 24px;
 }
 .container {
-  width: 1440px;
+  width: 1128px;
   padding-left: 156px;
   padding-right: 156px;
   margin: 0 auto;
@@ -141,10 +166,11 @@ margin-right: auto;
   color: #434455;
 }
 /* -----------------first section web ------------- */
-.section-effective {
+.effective {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;  
+  text-align: center;
  }
 .title-one {
   font-weight: 700;
@@ -153,26 +179,29 @@ margin-right: auto;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  width: 496px;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 .button-btn {
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-family: "Roboto";
   font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  width: 169px;
-  height: 56px;
+  min-width: 169px;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+ 
   
   }
 
 /* -------------------second section web-------------- */
-.section-two {
+.two {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -200,7 +229,6 @@ margin-right: auto;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  margin-top: 32px;
   }
 .paragraph {
   font-weight: 400;
@@ -211,7 +239,7 @@ margin-right: auto;
 }
 
 /* ------------------three section web img ---------------- */
-.section-what {
+.what {
   padding-bottom: 120px;
   
 }
@@ -231,8 +259,8 @@ margin-right: auto;
 .section-what-item {
   
 }
-.section-tim {
-  background: #f4f4fd;
+.team {
+  background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -240,8 +268,16 @@ margin-right: auto;
   gap: 24px;
 }
 .section-tim-item {
-}
+  background-color: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 
+}
+.three{
+  padding-left: 16px;
+  padding-right: 16px;
+  text-align: center;
+}
 /* --------------------------footer---------------- */
 .footer {
   background: #2e2f42;
