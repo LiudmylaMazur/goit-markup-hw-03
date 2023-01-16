@@ -89,13 +89,7 @@ a {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-.container {
-  width: 1128px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  outline: 1px solid red;
-}
+
 .header > .container {
   display: flex;
 }
