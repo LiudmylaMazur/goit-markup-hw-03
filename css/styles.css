@@ -75,7 +75,7 @@ a {
 .list {
   list-style: none;
   display: flex;
-  align-items: center;
+  
   gap: 24px;
 
 }
@@ -315,9 +315,8 @@ border-radius: 0px 0px 4px 4px;
 }
 .section-portfolio-list {
   gap: 24px;
-  padding-top: 96px;
-  padding-bottom: 72px;
-  
+  margin-bottom: 72px;
+  justify-content: center;
 }
 .section-portfolio-item {
   
@@ -336,7 +335,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .section-portfolio-button {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
   color: #4d5ae5;
   cursor: pointer;
   font-weight: 500;
@@ -344,6 +343,5 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   display: flex;
-  width: 116px;
-  height: 48px;
+  padding: 12px 24px;
 }
