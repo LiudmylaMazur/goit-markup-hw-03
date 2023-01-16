@@ -322,16 +322,19 @@ border-radius: 0px 0px 4px 4px;
   
 }
 .section-portfolio-item-list {
-  padding-bottom: 120px;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
 }
 .section-portfolio-button:hover {
   background-color: #4d5ae5;
   color: #ffffff;
   min-width: 69px;
   height: 48px;
+}
+
+.section-title-three{
+
 }
 
 .section-portfolio-button {
@@ -344,4 +347,5 @@ border-radius: 0px 0px 4px 4px;
   letter-spacing: 0.04em;
   display: flex;
   padding: 12px 24px;
+  font-family: inherit;
 }
